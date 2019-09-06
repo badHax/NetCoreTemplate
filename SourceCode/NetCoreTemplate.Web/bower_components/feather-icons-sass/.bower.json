@@ -1,0 +1,32 @@
+{
+  "name": "feather-icons-sass",
+  "authors": [
+    "Denis Ciccale <dciccale@gmail.com>"
+  ],
+  "description": "feather icons sass from @colebemis in sass",
+  "main": "feather.css",
+  "keywords": [
+    "feather",
+    "icons",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dciccale/feather-icons-sass",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1fb7838bb2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1fb7838bb2890a1d9528c359636365ab58ae6ce7"
+  },
+  "_source": "https://github.com/dciccale/feather-icons-sass.git",
+  "_target": "*",
+  "_originalSource": "feather-icons-sass",
+  "_direct": true
+}

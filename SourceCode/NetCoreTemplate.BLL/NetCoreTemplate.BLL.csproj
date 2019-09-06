@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Otp.NET" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreTemplate.Common\NetCoreTemplate.Common.csproj" />
+    <ProjectReference Include="..\NetCoreTemplate.DAL\NetCoreTemplate.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

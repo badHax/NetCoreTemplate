@@ -1,0 +1,100 @@
+﻿html,
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-width: 480px;
+    background-color: #f0f0f0;
+}
+
+.main{
+    height : 100vh;
+    position: relative;
+    min-width: 480px;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    width: 100%;
+    bottom: 0;
+}
+.select-card {
+    background-color: #00a9e0;
+}
+.jumbotron {
+    color: white;
+    background-image: url("../Images/175-banner-v2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.cc-text {
+    font-size: 1rem;
+}
+
+.cc-num-input {
+    width: 60px;
+    margin-top: -35px; 
+    margin-left:210px;
+}
+
+@media (min-width: 576px) {
+    .cc-text {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .cc-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .cc-text {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cc-text {
+        font-size: 2rem;
+    }
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.cc-wrapper img {
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+
+.cc-instructions {
+    margin-top: 105px;
+    margin-left: 50px;
+    color: #fff;
+
+    text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 #000, 1px 1px 0 grey;
+}
